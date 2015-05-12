@@ -16,4 +16,4 @@
 # Using secret_token for rails3 compatibility. Change to secret_key_base
 # to avoid deprecation warning.
 # Can be safely removed in a rails3 api-only application.
-TrailerFeedApi::Application.config.secret_token = '357094989693caf30c0e70cf427196e9f9eb1eecd5f30c7542701f9fdc4c1a605caa4322a88ca9807604a0b370f92e72bde16fc3f4131ebec877be20df9b9525'
+TrailerApi::Application.config.secret_token = '82fd85923bd38b5ae6195f28a9135df2a3d830511c1d6b4dd7df5f70fc9114c3b105a37ae9bd5098b78410afdf87ab53adfbcc6eee56d84486687308126a2fec'
