@@ -6,7 +6,7 @@ module Api
           # GET /trailers
           # GET /trailers.json
           def index
-            @trailers = Trailer.all
+            @trailers = Trailer.paginate(:page => params[:page]).order('created_at DESC')
 
             render json: @trailers
           end
